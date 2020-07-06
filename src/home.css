@@ -1,0 +1,23 @@
+body{
+    padding: 5px;
+}
+
+#bob{
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-radius: 15px;
+    position:'fixed';
+    
+}
+#nice{
+    width: 100%;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: center;
+}
+.home{
+    background-image: url('./wed.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

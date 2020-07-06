@@ -1,0 +1,44 @@
+.wed{
+    height: 400px;
+    
+    margin-bottom:15px;
+}
+.but1{
+    background-color: aliceblue;
+    color: black;
+    border:0;
+    height:75px;
+    background-image: url("./explore.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.but3{
+    background-color: aliceblue;
+    color: black;
+    border:0;
+    height:75px;
+    background-image: url("./explore1.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.but4{
+    background-color: aliceblue;
+    color: black;
+    border:0;
+    height:75px;
+    background-image: url("./explore2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.but2{
+    background-color: aliceblue;
+    color:black;
+    border:0;
+}
+.cad1{
+    border: 0ch;
+    outline: 0;
+}

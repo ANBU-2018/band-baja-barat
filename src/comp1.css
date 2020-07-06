@@ -1,0 +1,23 @@
+#invit{
+    background-image: url('finvite.jpg');
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-orientation: upright;
+    text-align-last: left;
+
+
+}
+#invite{
+    background-image: url('binvite1.jpg');
+    height: 400;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#inv{
+    width: 100%;
+    text-align: center;
+}
