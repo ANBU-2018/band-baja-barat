@@ -8,7 +8,8 @@ function EventDetail() {
     const eventData=useSelector(state => state.eventData);
     console.log(eventData);
     const history=useHistory();
-    const datae=new Date(eventData.eventDate);
+    const dat=new Date(eventData.eventDate)
+    const datae=dat.getFullYear().toString()+"-" + dat.getMonth()+"-"+dat.getDate().toString()
     const updateStatus=()=>{
         alert('Hello')
         async function updateStatus1(){
@@ -17,6 +18,7 @@ function EventDetail() {
                     "eventId":eventData.eventId,
                     "hostStatus":"APPROVED",
                     "eventDate":datae
+
             }),
             headers: { "Content-type": "application/json" },
             method:'PATCH'});

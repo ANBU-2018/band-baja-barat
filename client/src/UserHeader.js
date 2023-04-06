@@ -50,7 +50,7 @@ function UserHeader() {
     }
     useEffect(() => {
         async function getsearchData() {
-            const response = await fetch(`http://localhost:9000/userhome/search?value=${search}&&key=${Data}`)
+            const response = await fetch(`http://localhost:9000/userhome/search?value=${search}&key=${Data}`)
             const allData = await response.json();
             setsearchData(allData.data ?? []);
         }

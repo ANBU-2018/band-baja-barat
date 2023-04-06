@@ -43,7 +43,7 @@ function Header(props) {
                     method: "post"
                 });
                 const { data } = await response.json();
-                setUserPoints(data[0].points)
+                setUserPoints(data[0].points??'')
             }
             getUserData();
         }
